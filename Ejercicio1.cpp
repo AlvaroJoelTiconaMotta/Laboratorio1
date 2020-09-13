@@ -8,5 +8,5 @@ int main()
         if ((x % 3 == 0) || (x % 5 == 0))
             suma += x;
     }
-    cout << suma
+    cout << suma:
 }
