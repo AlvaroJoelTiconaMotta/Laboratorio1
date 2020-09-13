@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-    int resultados = 0;
-    for (int x = 3; x < 1000; x++)
+    int resultado = 0;
+    for (int y = 3; y < 1000; y++)
     {
-        if ((x % 3 == 0) || (x % 5 == 0))
-            resultados += x;
+        if ((y % 3 == 0) || (y % 5 == 0))
+            resultado += y;
         else
         {
-            cout << "Soy una rata";
+            cout << "Soy una ratita hackera";
         }
     }
-    cout << resultados;
+    cout << resultado << " es el resultado";
 }
